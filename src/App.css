@@ -1,0 +1,156 @@
+*root{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*body{
+  background-color: #000;
+}
+.updateacc{
+  
+  margin-top: 10rem;
+  margin-left: 30rem; 
+}
+.sidebar{
+  
+  background: linear-gradient(to left, #007bff, #000);
+  color: rgb(236, 228, 228);
+  height: 100vh;
+}
+.icon{
+  color: rgb(235, 235, 245);
+}
+.top{
+  display: flex;
+  justify-content: space-around;
+ align-items: center;
+ padding: 15px 10px;
+}
+.navlink{
+  display: flex;
+  color: rgb(239, 239, 250);
+  gap: 10px;
+  text-decoration: none;
+  border: 4px solid transparent;
+}
+.navlink:hover{
+  
+  /* border-right: 4px solid rgb(106, 93, 141); */
+   background: rgb(45, 51, 89);
+   background: linear-gradient(to right, #28394b, rgb(68, 64, 133)); 
+   color: white;
+}
+a{
+  text-decoration: none;
+  
+}
+.sidebar-main-container{
+  display: flex;
+}
+.active{
+  border-right: 4px solid white;
+  background: rgb(45, 51, 89);
+}
+.card{
+  box-shadow: 5px 5px 5px 5px   rgb(45, 51, 89);
+  
+  width: 350px;
+  height: 200px;
+  margin: 10% 5%;
+  padding: 1rem ;
+background:#BBE3FF;
+border: 2px solid  rgb(4, 51, 89);
+border-radius: 10px;
+
+  
+}
+.card:hover{
+  width: 360px;
+  height: fit-content;
+
+  transform: all ease 1s;
+}
+.card:hover img{
+  width: 100%;
+  height: 100px;
+}
+.card img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100px;
+  
+}
+.title h2{
+  text-align: center;
+  width: 100%;
+}
+
+/* creATE COURSE CSS */
+.square {
+  border-radius: 0px;
+}
+
+.jumbotron {
+  background-image: linear-gradient(to right, #007bff, #000);
+  color: #fff;
+  height: 100px;
+  padding-top: 30px;
+}
+
+main{
+  width: 100%;
+}
+
+.jumbotron {
+    background-image: linear-gradient(to right, #007bff, #000);
+    color: #fff;
+  }
+  button{
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: black;
+  }
+  
+  .pointer {
+    cursor: pointer;
+  }
+  
+  .ant-card-meta-title {
+    font-size: 12px;
+  }
+  
+  .markdown-preview img {
+    max-width: 300px;
+  }
+  
+  .left-bottom-radius {
+    border-radius: 0px 0px 10px 10px;
+  }
+  .createbtn{
+    width: 100%;
+    color: white;
+    background-color: #007bff;
+    border: none;
+  }
+
+  .navbar-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .signout-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .signout-icon {
+    margin-right: 5px;
+  }
+  

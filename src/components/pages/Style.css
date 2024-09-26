@@ -1,0 +1,286 @@
+.quiz {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 95px;
+    padding: 40px;
+    background: linear-gradient(to left, #007bff, #000);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px rgba(11, 11, 11, 0.1);
+    color: white;
+  }
+  
+  .score-section {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .question-section {
+    margin-bottom: 20px;
+  }
+  
+  .question-count {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .question-text {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .answer-section button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+  }
+  
+  .answer-section button:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .answer-section button:last-child {
+    margin-bottom: 0;
+  }
+
+
+
+  /* --------SignUp--------- */
+
+  
+  
+.reg{
+  box-sizing: border-box;
+  border: 0px solid black;
+  box-shadow: 5px ;
+  border-radius:2px ;
+  margin: 50px 400px;
+  display: flex;
+  justify-content: center;
+ 
+  
+}
+.regform{
+  box-sizing: border-box;
+  background-color: #b9ceee;
+  height:500px;
+  margin:0 auto;
+  box-shadow:4px 4px 4px 4px rgb(172, 165, 165);
+  border:none;
+  border-radius: 5px 0px 0px 5px;  
+  align-items: center;
+  padding: 10px auto;
+  
+ 
+
+}
+.inputform{
+  height:35px;
+  margin: 10px 70px  ;
+  width: 70%;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+}
+.form-btn{
+  height:35px;
+  margin-top: 10px;
+  margin-inline: 130px;
+  width: 40%;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  background-color: #039;
+
+}
+
+.fields{
+padding-top: 70px;
+
+
+}
+.half{
+  width: 50%;
+  background: #039;
+  border-radius: 0px 5px 5px 0px;  
+  box-shadow:4px 4px 4px 4px rgb(172, 165, 165);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.half-card h2{
+  color: white;
+  font-size: 70px;
+  font-family: cursive;
+  text-align: center;
+}
+.half-card h4{
+  color: white;
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+}
+.form{
+  width: 50%;
+  margin:0 auto;
+  
+   
+}
+
+
+
+.main-container{
+
+  /* border: rgb(133, 52, 52) solid; */
+  width: 50%;
+  margin: auto;
+  /* margin-top: 3rem; */
+  padding: 3rem;
+}
+
+.Inner-container{
+  /* border: solid red; */
+  margin: auto;
+  width: 70%;
+  /* margin-top: 1rem; */
+  padding: 1rem;
+
+}
+
+/* .Inner-container button{
+
+  border: solid red;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  margin: auto; }  */
+
+.Text-area-container{
+
+  /* height: 60px; */
+  width: 50%;
+  margin: auto;
+  /* border: red solid; */
+}
+textarea{
+  width: 100%;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 18px;
+  /* margin: auto ; */
+  padding: 2rem 0 0.2rem 0  ;
+}
+/*   login   */
+.main-div{
+  background: linear-gradient(to right, #007bff, #000);
+  height: 100vh;
+  display: flow-root;
+
+}
+.login{
+  margin-left: 1em;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: royalblue;
+}
+input[type="text"],
+input[type="password"] {
+  height: 35px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+input[type="submit"]:hover {
+  background: #6cf0c2;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  background-color: royalblue;
+  width: 100px;
+  margin: 0 auto;
+}
+.sign{
+  color: #fff;
+  font-size: medium;
+}
+.button-signup{
+  display: flex;
+  justify-content: center;
+  /* background-color: royalblue;
+  color: white; */
+}
+
+.login-form {
+  background-color: white;
+  padding:5rem;
+  width: 40%;
+  margin: auto;
+  margin-top: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+.above-nav{
+  background-color: aliceblue;
+}
+.logout-btn{
+  margin-left: 80em;
+  background: linear-gradient(to right, #007bff, #000);
+  
+}
+.enroll{
+  display: flex;
+}
+.profile-div{
+  display: flex;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.pic-div img{
+  width: 70%;
+  height: 70%;
+}
+
+
+/* ////course */
+
+.heading{
+  font-weight:600;
+}
+
+.quizes{
+  text-decoration: underline;
+  cursor:pointer;
+}
